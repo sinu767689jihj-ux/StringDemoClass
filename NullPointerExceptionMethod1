@@ -1,0 +1,13 @@
+public class StringDemoClassMethod1{
+    String getString()
+    {
+        //return "Srinu";
+        return null;
+    }
+    public static void main(String[] args)
+    {
+        StringDemoClassMethod1 s=new StringDemoClassMethod1();
+        String result=s.getString();
+        System.out.println(result.toUpperCase());
+    }
+}
