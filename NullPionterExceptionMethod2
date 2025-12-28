@@ -1,0 +1,15 @@
+public class StringDemoClassMethod2 {
+    String name="Srinu";
+    String getString(){
+        if(name!=null)
+            return name;
+        else
+            return null;
+    }
+    public static void main(String[] args)
+    {
+        StringDemoClassMethod2 s=new StringDemoClassMethod2();
+        String result=s.getString();
+        System.out.println(result.toUpperCase());
+    }
+}
